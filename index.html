@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Stlite App</title>
+</head>
+<body>
+  <script src="https://whitphx.github.io/stlite/lib/application/stlite.js" ></script>
+  <script>
+fetch("https://raw.githubusercontent.com/napoles-uach/test/main/app.py").then((r)=>{r.text().then((d)=>{let CONTENT = d
+ stlite.mount({
+   mainScriptData:CONTENT
+ })                                                                                                      
+ })})
+  </script>
+</body>
+</html>
